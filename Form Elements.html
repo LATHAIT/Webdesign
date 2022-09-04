@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <form action="register.php"method="POST">
+        <table>
+            <tr>
+                <th><label for="User name">Username</label></th>
+                <td><input type="text" name="uname" id="username" value="mayuresh" required/></td>
+            </tr>
+            <tr>
+                <th><label for="PWD">Password</label></th>
+                <td><input type="password"name="pass" id="PWD" placeholder="Password 8 to 10 letters or numbers" requires/></td>
+            </tr>
+            <th><label for="phone">Contact</label></th>
+            <td><input type="number" name="contact" id="phone"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="button" name="register" value="Register Now"/><input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2>Radio Button</h2>
+    <p> The<strong> input type="radio"</strong>defines a radio button:</p>
+    <p>Choose your favorite web language:</p>
+    <form action="/action_page.php">
+        <input type ="radio" id="html" name="fav_language" value="html">
+        <label for ="html">HTML</label><br>
+        <input type="radio" id="CSS" name="fav_language" value="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="javascript">
+        <input type ="SUBMIT" value ="SUBMIT">
+    </form>
+    <h2>Check Box</h2>
+    <p> The<strong> input type="checkbox"</strong>defines a checkbox:</p>
+    <p>Choose your favorite web language:</p>
+    <form action="/action_page.php">
+        <input type ="checkbox" id="html" name="fav_language" value="html">
+        <label for ="html">HTML</label><br>
+        <input type="checkbox" id="CSS" name="fav_language" value="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="checkbox" id="javascript" name="fav_language" value="javascript">
+        <input type ="SUBMIT" value ="SUBMIT">
+    </form>
+    <h2>Text Box</h2>
+    <p> The<strong> input type="Text"</strong>defines a Text Box:</p>
+    <p>Choose your favorite web language:</p>
+    <form action="/action_page.php">
+        <input type ="Textbox" id="html" name="fav_language" value="html">
+        <label for ="html">HTML</label><br>
+        <input type="Textbox" id="CSS" name="fav_language" value="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="Textbox" id="javascript" name="fav_language" value="javascript">
+        <input type ="SUBMIT" value ="SUBMIT">
+    </form>
+
+    <form>
+        <fieldset>
+            <legend> Personalia:</legend>
+            Name:<input type="text"><br>
+            Email:<input type="text"><br>
+            Date of Birth:<input type="text">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend> Personalia:</legend>
+            Name:<input type="text"size="50"><br>
+            Email:<input type="text" size="50"><br>
+            Date of Birth:<input type="text" size="10">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
